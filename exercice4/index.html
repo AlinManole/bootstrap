@@ -6,36 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <title>Exercice 4</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </head>
 <body>
+
+  <!-- Navbar-->
     <nav class="navbar navbar-expand-lg mx-5 bg-dark">
-        <a class="navbar-brand text-white ps-3" href="#">Homepage</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link text-white" href="#">Home</span></a>
-            </li>
-
-            <div class="dropdown show my-auto">
-              <a class="btn btn-dark dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Team</a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">Vincent</a>
-                <a class="dropdown-item" href="#">Beatrice</a>
-                <a class="dropdown-item" href="#">Rosita</a>
-              </div>
+      <a class="navbar-brand  ps-3 text-white" href="#">Homepage</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#">Home</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Team
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Vincent</a>
+              <a class="dropdown-item" href="#">Beatrice</a>
+              <a class="dropdown-item" href="#">Rosita</a>
             </div>
-
-            <li class="nav-item">
-              <a class="nav-link text-secondary" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
+    <div class="alert alert-danger w-75 mx-auto " role="alert">
+      Une erreur serveur est survenue. Veuillez refraichir la page ou reessayer plus tard.
+    </div>
+
+    <!--Main Section-->
 
     <div class=" py-5 w-75 mx-auto bg-light d-flex justify-content-between">
         <h1 class="display-1 px-5 font-weight-bold">Hi! My name is!</h1>
@@ -45,23 +54,30 @@
         </div>
     </div>
 
+    <!-- Second Section-->
+
+    <div class="d-flex mx-auto justify-content-evenly mt-4">
+    <button type="button" class="btn btn-primary btn-lg ">Signup newsletter</button>
+    </div>
+
+
     <div class="d-flex flex-row w-75 mx-auto py-4">
         <div class="mr-2">
             <h2>Planification</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae eum culpa debitis ducimus architecto perferendis exercitationem nisi laborum sit doloremque!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae eum culpa debitis ducimus architecto perferendis exercitationem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam totam optio aperiam! Quod ipsum quos rerum illo? Tempora, pariatur iusto, eligendi impedit dignissimos veniam eius labore neque corrupti quam suscipit! nisi laborum sit doloremque!</p>
         </div>
         <div class="mx-2">
             <h2>Action</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eos id tempore asperiores provident doloribus dolorum consequuntur maiores debitis at.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, amet vitae neque eaque modi dignissimos nemo id, odio repudiandae veniam ab illo tenetur, corporis nesciunt velit. Tenetur, repellat cupiditate! Autem! Voluptatibus eos id tempore asperiores provident doloribus dolorum consequuntur maiores debitis at.</p>
         </div>       
          <div class="mr-2">
             <h2>Analysis</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores laborum quis vitae, illum quaerat laboriosam modi aperiam reiciendis omnis assumenda!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores laborum quis vitae, illum quaerat Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt eveniet perspiciatis dolorem natus quos, assumenda cum libero optio sapiente nesciunt, neque sequi, voluptate temporibus animi consectetur. Maxime corporis nulla autem? laboriosam modi aperiam reiciendis omnis assumenda!</p>
         </div>
     </div>
 
- <!--Script-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
      
 </body>
 </html>
